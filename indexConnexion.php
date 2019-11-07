@@ -13,7 +13,7 @@ include 'connection.php';
 		<h2>Connexion</h2>
 		<br><br><br>
 		
-		<form method="POST" action="profil.php?">
+		<form method="POST" action="">
 			<input type="mail" name="mailconnect" placeholder="Mail">
 			<input type="password" name="mdpconnect" placeholder="Mot de passe">
 			<input type="submit" name="formconnexion" value="Se connecter">

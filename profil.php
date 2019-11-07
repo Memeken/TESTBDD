@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['mail'])){
    header("Location:index.php");
-};
+}
 
 try{
 $bdd = new PDO("mysql:host=localhost;dbname=espace_membre;charset=utf8", "damery","damery");
